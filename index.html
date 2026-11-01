@@ -13,21 +13,36 @@
   </header>
 
   <main class="container">
-    <section class="search-bar">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="搜尋作文標題或內容..."
-        autocomplete="off"
-      />
-      <span id="resultCount" class="result-count"></span>
+    <aside class="calendar-sidebar">
+      <div class="calendar-header">
+        <button id="prevMonth" class="cal-nav">‹</button>
+        <h2 id="calMonthYear"></h2>
+        <button id="nextMonth" class="cal-nav">›</button>
+      </div>
+      <div class="calendar-weekdays">
+        <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+      </div>
+      <div id="calendarGrid" class="calendar-grid"></div>
+      <button id="calClearFilter" class="cal-clear hidden">顯示全部</button>
+    </aside>
+
+    <section class="main-content">
+      <section class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="搜尋作文標題或內容..."
+          autocomplete="off"
+        />
+        <span id="resultCount" class="result-count"></span>
+      </section>
+
+      <section id="essayList" class="essay-list"></section>
+
+      <div id="noResult" class="no-result hidden">
+        😕 找不到符合的作文，試試其他關鍵字？
+      </div>
     </section>
-
-    <section id="essayList" class="essay-list"></section>
-
-    <div id="noResult" class="no-result hidden">
-      😕 找不到符合的作文，試試其他關鍵字？
-    </div>
   </main>
 
   <footer class="site-footer">
