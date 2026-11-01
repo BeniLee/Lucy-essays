@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>撰寫新作文</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .write-container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    .form-group {
+      margin-bottom: 1.2rem;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 0.4rem;
+      font-weight: bold;
+      color: var(--text);
+    }
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      border: 2px solid var(--border);
+      border-radius: 0.5rem;
+      background: var(--card-bg);
+      font-family: inherit;
+      color: var(--text);
+    }
+    .form-group textarea {
+      min-height: 300px;
+      resize: vertical;
+      line-height: 1.8;
+    }
+    .btn-submit {
+      padding: 0.8rem 2rem;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-submit:hover {
+      background: #d49a6c;
+    }
+    .password-section {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .success-msg {
+      color: #4a9;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .error-msg {
+      color: #c33;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1>✍️ 撰寫新作文</h1>
+    <p class="subtitle">寫下今天的成長故事</p>
+  </header>
+
+  <main class="write-container">
+    <form id="writeForm">
+      <div class="form-group">
+        <label for="essayDate">日期</label>
+        <input type="date" id="essayDate" required />
+      </div>
+
+      <div class="form-group">
+        <label for="essayTitle">標題</label>
+        <input type="text" id="essayTitle" placeholder="作文題目" required />
+      </div>
+
+      <div class="form-group">
+        <label for="essayBody">內文</label>
+        <textarea id="essayBody" placeholder="在這裡寫作文..." required></textarea>
+      </div>
+
+      <div class="password-section">
+        <div class="form-group">
+          <label for="postPassword">管理密碼</label>
+          <input type="password" id="postPassword" placeholder="請輸入密碼" required />
+        </div>
+        <button type="submit" class="btn-submit">發布作文</button>
+        <div id="formMessage"></div>
+      </div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="index.html">← 返回作文集</a></p>
+  </footer>
+
+  <script>
+    const API_BASE = window.location.origin;
+
+    document.getElementById('writeForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const msgEl = document.getElementById('formMessage');
+      msgEl.innerHTML = '';
+
+      const payload = {
+        date: document.getElementById('essayDate').value,
+        title: document.getElementById('essayTitle').value.trim(),
+        body: document.getElementById('essayBody').value,
+        password: document.getElementById('postPassword').value,
+      };
+
+      try {
+        const res = await fetch(`${API_BASE}/api/submit`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json();
+        if (res.ok) {
+          msgEl.innerHTML = '<p class="success-msg">✅ 發布成功！<a href="index.html">查看作文集</a></p>';
+          document.getElementById('writeForm').reset();
+        } else {
+          msgEl.innerHTML = `<p class="error-msg">❌ ${data.error || '發布失敗'}</p>`;
+        }
+      } catch (err) {
+        msgEl.innerHTML = '<p class="error-msg">❌ 無法連接伺服器</p>';
+      }
+    });
+  </script>
+</body>
+</html>
