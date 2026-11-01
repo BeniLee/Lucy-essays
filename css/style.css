@@ -1,0 +1,204 @@
+/* === 基礎 === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #fdf6e3;
+  --card-bg: #fffef5;
+  --text: #3a3226;
+  --muted: #8c7e6a;
+  --accent: #e8a87c;
+  --accent2: #85cdca;
+  --border: #efe5d0;
+  --shadow: rgba(58, 50, 38, 0.08);
+}
+
+body {
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === 頁首 === */
+.site-header {
+  text-align: center;
+  padding: 2.5rem 1rem 1.5rem;
+  background: linear-gradient(135deg, #fce4c4 0%, #fdf6e3 100%);
+  border-bottom: 2px solid var(--border);
+}
+
+.site-header h1 {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+}
+
+/* === 內容 === */
+.container {
+  flex: 1;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* === 搜尋 === */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+#searchInput {
+  flex: 1;
+  padding: 0.75rem 1.2rem;
+  font-size: 1rem;
+  border: 2px solid var(--border);
+  border-radius: 2rem;
+  background: var(--card-bg);
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+
+#searchInput:focus {
+  border-color: var(--accent);
+}
+
+.result-count {
+  font-size: 0.85rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* === 作文卡片 === */
+.essay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.essay-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 8px var(--shadow);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.essay-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px var(--shadow);
+}
+
+.essay-card .date {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+
+.essay-card h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  color: var(--text);
+}
+
+.essay-card .preview {
+  font-size: 0.9rem;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.essay-card .tag {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 1rem;
+  background: #f5ead6;
+  color: var(--muted);
+}
+
+/* === 內文頁 === */
+.essay-detail {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 2px 8px var(--shadow);
+}
+
+.essay-detail .back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.essay-detail .date {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.essay-detail h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.essay-detail .body {
+  font-size: 1.05rem;
+  line-height: 2;
+  white-space: pre-wrap;
+}
+
+.essay-detail .image-container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.essay-detail img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.no-result {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.hidden { display: none !important; }
+
+/* === 頁尾 === */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+
+/* === RWD === */
+@media (max-width: 600px) {
+  .site-header h1 { font-size: 1.5rem; }
+  .essay-detail { padding: 1.2rem; }
+}
