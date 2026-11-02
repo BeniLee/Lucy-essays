@@ -177,21 +177,29 @@
   content: "💡 ";
 }
 
-.sample-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1rem;
+.sample-essays {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   margin-top: 1rem;
 }
 
-.gallery-item {
+.sample-essay {
   border: 1px solid var(--border);
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   overflow: hidden;
   background: #fff;
 }
 
-.gallery-item img {
+.sample-page-label {
+  padding: 0.5rem 1rem;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.sample-essay img {
   width: 100%;
   height: auto;
   display: block;
