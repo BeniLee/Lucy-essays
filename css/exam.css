@@ -197,6 +197,27 @@
   display: block;
 }
 
+.prompt-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.prompt-item {
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #fff;
+  max-width: 500px;
+}
+
+.prompt-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media (max-width: 700px) {
   .exam-container {
     flex-direction: column;
@@ -209,5 +230,8 @@
   .year-nav {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .prompt-item {
+    max-width: 100%;
   }
 }
