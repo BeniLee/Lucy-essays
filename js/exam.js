@@ -61,6 +61,20 @@ function renderExamDetail() {
     `;
   }
 
+  let imagesHtml = '';
+  if (exam.sampleImages && exam.sampleImages.length) {
+    imagesHtml = `
+      <h3>🖼️ 六級分樣卷</h3>
+      <div class="sample-gallery">
+        ${exam.sampleImages.map((img, idx) => `
+          <div class="gallery-item">
+            <img src="${img}" alt="樣卷第${idx+1}頁" loading="lazy" />
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
   let inspirationHtml = '';
   if (exam.inspiration && exam.inspiration.length) {
     inspirationHtml = `
@@ -88,6 +102,7 @@ function renderExamDetail() {
       </ul>
 
       ${samplesHtml}
+      ${imagesHtml}
       ${inspirationHtml}
     </div>
   `;
