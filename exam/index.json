@@ -288,5 +288,368 @@
       "exam/samples/110/page-021.jpg",
       "exam/samples/110/page-022.jpg"
     ]
+  },
+  {
+    "year": "109",
+    "title": "我想開設一家這樣的店",
+    "type": "引導式寫作",
+    "prompt": "開一家店，可能是為了實踐某個夢想，也可能是為了滿足生活中的各種期盼。你想開設一家怎樣的店？為什麼要開這家店？它又會是什麼樣貌？請以「我想開設一家這樣的店」為題，具體寫下你的想法。",
+    "scoring": [
+      "能具體描寫夢想中的店舖樣貌與經營理念",
+      "能將开店構想與個人價值、生命經驗連結",
+      "能写出溫暖人心的情感與社會關懷"
+    ],
+    "samples": [
+      {
+        "title": "範例一：為記憶不長的阿公阿嬤開餐廳",
+        "summary": "想開一家餐廳讓長者就業，客人體諒他們上錯菜的溫暖故事，呈現對弱勢族群的關懷。",
+        "strengths": ["溫感人", "立意深", "具體描寫"]
+      },
+      {
+        "title": "範例二：每週只賣一本書的木質書店",
+        "summary": "夢想中的書店只賣一本書，邀請客人慢慢讀、細細品，傳達慢生活與閱讀的美學。",
+        "strengths": ["構想新", "文筆優", "意境深"]
+      }
+    ],
+    "inspiration": [
+      "從夢想中的店舖出發：書店、餐廳、雜貨店、花店",
+      "思考：這家店要解決什麼問題？滿足什麼需求？",
+      "連結個人經驗：家人經營的店、常去的店",
+      "把商業構想提升到生命價值層次"
+    ],
+    "sampleImages": [
+      "exam/samples/109/page-001.jpg",
+      "exam/samples/109/page-002.jpg",
+      "exam/samples/109/page-003.jpg",
+      "exam/samples/109/page-004.jpg",
+      "exam/samples/109/page-005.jpg",
+      "exam/samples/109/page-006.jpg",
+      "exam/samples/109/page-007.jpg",
+      "exam/samples/109/page-008.jpg",
+      "exam/samples/109/page-009.jpg",
+      "exam/samples/109/page-010.jpg",
+      "exam/samples/109/page-011.jpg",
+      "exam/samples/109/page-012.jpg",
+      "exam/samples/109/page-013.jpg",
+      "exam/samples/109/page-014.jpg",
+      "exam/samples/109/page-015.jpg",
+      "exam/samples/109/page-016.jpg",
+      "exam/samples/109/page-017.jpg",
+      "exam/samples/109/page-018.jpg",
+      "exam/samples/109/page-019.jpg",
+      "exam/samples/109/page-020.jpg",
+      "exam/samples/109/page-021.jpg",
+      "exam/samples/109/page-022.jpg",
+      "exam/samples/109/page-023.jpg",
+      "exam/samples/109/page-024.jpg",
+      "exam/samples/109/page-025.jpg"
+    ]
+  },
+  {
+    "year": "108",
+    "title": "青銀共居",
+    "type": "圖表解讀／不必訂題",
+    "prompt": "政府推動青年與銀髮族共居的實驗計畫，請你閱讀相關圖表與報導後，寫出你對這種居住模式的看法與建議。",
+    "scoring": [
+      "能統整圖表資訊，分析青銀共居的利弊",
+      "能结合社會觀察，提出具體建議",
+      "能展現對人口 ageing 問題的關懷與思辨"
+    ],
+    "samples": [
+      {
+        "title": "範例：從共居實驗看世代融合",
+        "summary": "分析青銀共居如何解決少子化與孤獨死問題，也提醒應重視生活习惯差异與隱私。",
+        "strengths": ["問題意識", "具體建議", "人文關懷"]
+      }
+    ],
+    "inspiration": [
+      "觀察社區中的長者生活",
+      "思考：年輕人與長者可以如何互相幫助",
+      "從居住正義、世代正義角度思考",
+      "可以描寫理想的共居場景"
+    ],
+    "sampleImages": [
+      "exam/samples/108/page-001.jpg",
+      "exam/samples/108/page-002.jpg",
+      "exam/samples/108/page-003.jpg",
+      "exam/samples/108/page-004.jpg",
+      "exam/samples/108/page-005.jpg",
+      "exam/samples/108/page-006.jpg",
+      "exam/samples/108/page-007.jpg",
+      "exam/samples/108/page-008.jpg",
+      "exam/samples/108/page-009.jpg",
+      "exam/samples/108/page-010.jpg",
+      "exam/samples/108/page-011.jpg",
+      "exam/samples/108/page-012.jpg",
+      "exam/samples/108/page-013.jpg",
+      "exam/samples/108/page-014.jpg",
+      "exam/samples/108/page-015.jpg",
+      "exam/samples/108/page-016.jpg",
+      "exam/samples/108/page-017.jpg",
+      "exam/samples/108/page-018.jpg",
+      "exam/samples/108/page-019.jpg",
+      "exam/samples/108/page-020.jpg",
+      "exam/samples/108/page-021.jpg",
+      "exam/samples/108/page-022.jpg",
+      "exam/samples/108/page-023.jpg",
+      "exam/samples/108/page-024.jpg",
+      "exam/samples/108/page-025.jpg"
+    ]
+  },
+  {
+    "year": "107",
+    "title": "我們這個世代",
+    "type": "社會觀察／命題作文",
+    "prompt": "請以「我們這個世代」為題，寫出你對所屬世代的觀察、感受與想法。",
+    "scoring": [
+      "能具體描述世代特徵，避免空泛",
+      "能結合個人經驗或社會現象",
+      "能提出對世代的批判、反思或期待"
+    ],
+    "samples": [
+      {
+        "title": "範例：數位原住民的矛盾",
+        "summary": "描述我們這代人在網路時代既能快速获取資訊，又容易迷失在虛擬世界中的矛盾處境。",
+        "strengths": ["世代觀察", "自我反思", "文筆流暢"]
+      }
+    ],
+    "inspiration": [
+      "描述你的世代標籤：數位原生、 climate anxiety、後青春",
+      "結合具體場景：社群媒體、手機 addiction、環境運動",
+      "可以批判，也可以正面描繪",
+      "思考：這個世代最珍貴的是什麼？"
+    ],
+    "sampleImages": [
+      "exam/samples/107/page-001.jpg",
+      "exam/samples/107/page-002.jpg",
+      "exam/samples/107/page-003.jpg",
+      "exam/samples/107/page-004.jpg",
+      "exam/samples/107/page-005.jpg",
+      "exam/samples/107/page-006.jpg",
+      "exam/samples/107/page-007.jpg",
+      "exam/samples/107/page-008.jpg",
+      "exam/samples/107/page-009.jpg",
+      "exam/samples/107/page-010.jpg",
+      "exam/samples/107/page-011.jpg",
+      "exam/samples/107/page-012.jpg",
+      "exam/samples/107/page-013.jpg",
+      "exam/samples/107/page-014.jpg",
+      "exam/samples/107/page-015.jpg",
+      "exam/samples/107/page-016.jpg",
+      "exam/samples/107/page-017.jpg",
+      "exam/samples/107/page-018.jpg",
+      "exam/samples/107/page-019.jpg",
+      "exam/samples/107/page-020.jpg",
+      "exam/samples/107/page-021.jpg"
+    ]
+  },
+  {
+    "year": "106",
+    "title": "在這樣的傳統習俗裡，我看見……",
+    "type": "圖文聯想／文化觀察",
+    "prompt": "提供一個傳統習俗的圖文資料，請你閱讀後寫出你對這個習俗的觀察與想法。",
+    "scoring": [
+      "能具體描述傳統習俗的內容與意義",
+      "能從現代觀點提出省思",
+      "能連結個人經驗或文化觀察"
+    ],
+    "samples": [
+      {
+        "title": "範例：在年節習俗中看見家族凝聚力",
+        "summary": "從過年返鄉祭祖的場景，寫出傳統習俗如何凝聚家族情感，也反思現代人逐漸淡薄的仪式感。",
+        "strengths": ["細節生動", "文化深度", "情感真摯"]
+      }
+    ],
+    "inspiration": [
+      "觀察家鄉的傳統祭典、節慶、婚喪習俗",
+      "思考：這些習俗對現代人還有意義嗎？",
+      "從「傳承」與「改變」的 tension 寫起",
+      "可以描寫一個具體的節日場景"
+    ],
+    "sampleImages": [
+      "exam/samples/106/page-001.jpg",
+      "exam/samples/106/page-002.jpg",
+      "exam/samples/106/page-003.jpg",
+      "exam/samples/106/page-004.jpg",
+      "exam/samples/106/page-005.jpg",
+      "exam/samples/106/page-006.jpg",
+      "exam/samples/106/page-007.jpg",
+      "exam/samples/106/page-008.jpg",
+      "exam/samples/106/page-009.jpg",
+      "exam/samples/106/page-010.jpg",
+      "exam/samples/106/page-011.jpg",
+      "exam/samples/106/page-012.jpg",
+      "exam/samples/106/page-013.jpg",
+      "exam/samples/106/page-014.jpg",
+      "exam/samples/106/page-015.jpg",
+      "exam/samples/106/page-016.jpg",
+      "exam/samples/106/page-017.jpg",
+      "exam/samples/106/page-018.jpg",
+      "exam/samples/106/page-019.jpg"
+    ]
+  },
+  {
+    "year": "105",
+    "title": "從陌生到熟悉",
+    "type": "經驗反思／命題作文",
+    "prompt": "請以「從陌生到熟悉」為題，寫出你對「適應與改變」的觀察或經驗。",
+    "scoring": [
+      "能具體描寫從陌生到熟悉的過程",
+      "能呈現心理變化與成長",
+      "能深化主题：熟悉之後是否還有新的陌生"
+    ],
+    "samples": [
+      {
+        "title": "範例一：從觀察社區貓到熟悉新環境",
+        "summary": "以社區牆上的貓為線索，投射自己因搬家而產生的陌生感，進而寫出人貓互動與心態調整。",
+        "strengths": ["細膩觀察", "象徵巧妙", "情感動人"]
+      },
+      {
+        "title": "範例二：從踢足球的陌生到熱愛",
+        "summary": "敘寫初始接觸足球的陌生與好奇，到後來的熱血投入，體悟熟悉需要時間與勇氣。",
+        "strengths": ["歷程清晰", "轉折自然", "勵志動人"]
+      }
+    ],
+    "inspiration": [
+      "從一個新環境、新技能、新朋友寫起",
+      "描寫「第一次」的緊張與「現在」的從容",
+      "思考：熟悉之後是否又面臨新的陌生？",
+      "可以寫人、地方、事物、技能"
+    ],
+    "sampleImages": [
+      "exam/samples/105/page-001.jpg",
+      "exam/samples/105/page-002.jpg",
+      "exam/samples/105/page-003.jpg",
+      "exam/samples/105/page-004.jpg",
+      "exam/samples/105/page-005.jpg",
+      "exam/samples/105/page-006.jpg",
+      "exam/samples/105/page-007.jpg",
+      "exam/samples/105/page-008.jpg",
+      "exam/samples/105/page-009.jpg",
+      "exam/samples/105/page-010.jpg",
+      "exam/samples/105/page-011.jpg",
+      "exam/samples/105/page-012.jpg",
+      "exam/samples/105/page-013.jpg"
+    ]
+  },
+  {
+    "year": "104",
+    "title": "捨不得",
+    "type": "情感敘事／命題作文",
+    "prompt": "請以「捨不得」為題，寫出你對「告別與珍惜」的觀察或經驗。",
+    "scoring": [
+      "能具體描寫「捨不得」的時刻與情感",
+      "能從中提煉成長或領悟",
+      "能運用描寫、抒情等手法強化感染力"
+    ],
+    "samples": [
+      {
+        "title": "範例：捨不得告別的小學時光",
+        "summary": "從畢業前的日常細節寫起，細膩描繪對老師、同學、校園的不捨，體悟離別是成長的一部分。",
+        "strengths": ["情感細膩", "細節動人", "結構完整"]
+      }
+    ],
+    "inspiration": [
+      "從「告別」寫起：畢業、搬家、寵物、舊物",
+      "描寫一個具體的「最後一次」場景",
+      "捨不得的不是物品，是背後的記憶與情感",
+      "可以寫人、地方、時刻、甚至是一種感覺"
+    ],
+    "sampleImages": [
+      "exam/samples/104/page-001.jpg",
+      "exam/samples/104/page-002.jpg",
+      "exam/samples/104/page-003.jpg",
+      "exam/samples/104/page-004.jpg",
+      "exam/samples/104/page-005.jpg",
+      "exam/samples/104/page-006.jpg",
+      "exam/samples/104/page-007.jpg",
+      "exam/samples/104/page-008.jpg",
+      "exam/samples/104/page-009.jpg",
+      "exam/samples/104/page-010.jpg",
+      "exam/samples/104/page-011.jpg",
+      "exam/samples/104/page-012.jpg",
+      "exam/samples/104/page-013.jpg",
+      "exam/samples/104/page-014.jpg",
+      "exam/samples/104/page-015.jpg",
+      "exam/samples/104/page-016.jpg",
+      "exam/samples/104/page-017.jpg",
+      "exam/samples/104/page-018.jpg"
+    ]
+  },
+  {
+    "year": "103",
+    "title": "面對未來，我應該具備的能力",
+    "type": "自我反思／命題作文",
+    "prompt": "請以「面對未來，我應該具備的能力」為題，寫出你對未來發展的準備與想法。",
+    "scoring": [
+      "能具體列出應具備的能力並闡述理由",
+      "能結合個人經驗或社會趨勢",
+      "能展現自我期許與行動方案"
+    ],
+    "samples": [
+      {
+        "title": "範例：在AI時代中培養不可替代的能力",
+        "summary": "從人工智慧的發展趨勢出發，認為未來最重要的是同理心、創造力與跨域整合能力。",
+        "strengths": ["時代感", "論證清晰", "自我期許"]
+      }
+    ],
+    "inspiration": [
+      "思考：未來世界需要什麼樣的人？",
+      "結合當前學習：程式、外語、表達、合作",
+      "從一個具體的能力寫起，不要列太多",
+      "可以反面思考：缺乏什麼能力會失敗"
+    ],
+    "sampleImages": [
+      "exam/samples/103/page-001.jpg",
+      "exam/samples/103/page-002.jpg",
+      "exam/samples/103/page-003.jpg",
+      "exam/samples/103/page-004.jpg",
+      "exam/samples/103/page-005.jpg",
+      "exam/samples/103/page-006.jpg"
+    ]
+  },
+  {
+    "year": "102",
+    "title": "來不及",
+    "type": "經驗敘事／命題作文",
+    "prompt": "請以「來不及」為題，寫出你對時間、機會或情感的觀察與反思。",
+    "scoring": [
+      "能具體描寫「來不及」的場景與情感",
+      "能從中提煉對時間或人生的領悟",
+      "能運用倒敘、插敘等手法強化感染力"
+    ],
+    "samples": [
+      {
+        "title": "範例：來不及說出口的謝謝",
+        "summary": "從爺爺去世的遺憾寫起，反思日常生活中那些來不及表達的情感，呼籲珍惜當下。",
+        "strengths": ["情感動人", "結構精巧", "寓意深遠"]
+      }
+    ],
+    "inspiration": [
+      "從一個「遺憾」的時刻寫起",
+      "可以是對人、對事、對時光",
+      "描寫「來不及」的當下與之後的領悟",
+      "可以寫親情、友情、夢想、機會"
+    ],
+    "sampleImages": [
+      "exam/samples/102/page-001.jpg",
+      "exam/samples/102/page-002.jpg",
+      "exam/samples/102/page-003.jpg",
+      "exam/samples/102/page-004.jpg",
+      "exam/samples/102/page-005.jpg",
+      "exam/samples/102/page-006.jpg",
+      "exam/samples/102/page-007.jpg",
+      "exam/samples/102/page-008.jpg",
+      "exam/samples/102/page-009.jpg",
+      "exam/samples/102/page-010.jpg",
+      "exam/samples/102/page-011.jpg",
+      "exam/samples/102/page-012.jpg",
+      "exam/samples/102/page-013.jpg",
+      "exam/samples/102/page-014.jpg",
+      "exam/samples/102/page-015.jpg",
+      "exam/samples/102/page-016.jpg",
+      "exam/samples/102/page-017.jpg",
+      "exam/samples/102/page-018.jpg"
+    ]
   }
 ]
