@@ -96,6 +96,17 @@ function renderExamDetail() {
         ${exam.prompt.replace(/\n/g, '<br>')}
       </div>
 
+      ${exam.promptImages && exam.promptImages.length ? `
+        <h3>📋 題目圖示</h3>
+        <div class="prompt-gallery">
+          ${exam.promptImages.map((img, idx) => `
+            <div class="prompt-item">
+              <img src="${img}" alt="題目圖示${idx+1}" loading="lazy" />
+            </div>
+          `).join('')}
+        </div>
+      ` : ''}
+
       <h3>🎯 評分重點</h3>
       <ul>
         ${exam.scoring.map(s => `<li>${s}</li>`).join('')}
