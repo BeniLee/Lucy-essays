@@ -13,17 +13,29 @@
       {
         "title": "範例一：以「牢籠」為主題",
         "summary": "描摹倉鼠困於狹小天地、沒有自主意識的情境，類比傳統家庭中女性的依附與停滯，以母親為例正面肯定其價值，期許掙脫枷鎖奔向未來。",
-        "strengths": ["善用類比", "情感真摯", "主旨明確"]
+        "strengths": [
+          "善用類比",
+          "情感真摯",
+          "主旨明確"
+        ]
       },
       {
         "title": "範例二：以「自由」為主題",
         "summary": "以鼠的視角敘述曾以為籠中生活即是全部，逃脫後親歷繽紛世界，醒悟心的世界廣袤不受限制，靈魂自由比物理空間更重要。",
-        "strengths": ["視角新穎", "修辭生動", "深化主題"]
+        "strengths": [
+          "視角新穎",
+          "修辭生動",
+          "深化主題"
+        ]
       },
       {
         "title": "範例三：以「選擇」與「自由」為主题",
         "summary": "從分數與制度形塑的人生框架起筆，以同學追夢與自己選擇升學為例，闡述能從自己選擇中看見光明，便是掙脫牢籠。",
-        "strengths": ["結合自身", "論證清晰", "結構完整"]
+        "strengths": [
+          "結合自身",
+          "論證清晰",
+          "結構完整"
+        ]
       }
     ],
     "inspiration": [
@@ -31,7 +43,8 @@
       "思考「舒適圈」vs「未知」的拉扯",
       "可以個人經歷（學業、興趣、家庭）為驗證材料",
       "避免只描述圖片，要延伸到生活觀察"
-    ]
+    ],
+    "sampleImages": []
   },
   {
     "year": "113",
@@ -47,17 +60,29 @@
       {
         "title": "範例一：媒體「網路釣魚」批判",
         "summary": "從氣候現象被聳動報導切入，批判當代媒體以誇大事實換取點閱率，點出閱聽人培養判斷能力的重要性。",
-        "strengths": ["時事連結", "批判深刻", "對策具體"]
+        "strengths": [
+          "時事連結",
+          "批判深刻",
+          "對策具體"
+        ]
       },
       {
         "title": "範例二：「標題殺」現象解析",
         "summary": "描述記者以含糊或色情用字設計標題帶來的困擾，以自身尋找答案的歷程，強調閱聽人自律與媒體倫理並重。",
-        "strengths": ["個人歷程", "多角度思考", "說服力強"]
+        "strengths": [
+          "個人歷程",
+          "多角度思考",
+          "說服力強"
+        ]
       },
       {
         "title": "範例三：商品標題與人性弱點",
         "summary": "從手機螢幕刺眼標題切入，諷刺商品標語如何誘發購買慾，以人性軟弱自嘲作結，主張理性辨明真偽。",
-        "strengths": ["諷刺手法", "自嘲真誠", "觀察細膩"]
+        "strengths": [
+          "諷刺手法",
+          "自嘲真誠",
+          "觀察細膩"
+        ]
       }
     ],
     "inspiration": [
@@ -65,6 +90,27 @@
       "回憶被標題騙過的經驗",
       "思考為什麼聳動標題總是有效",
       "可以從記者、閱聽人、平台三方分析"
+    ],
+    "sampleImages": [
+      "exam/samples/113/page-001.jpg",
+      "exam/samples/113/page-002.jpg",
+      "exam/samples/113/page-003.jpg",
+      "exam/samples/113/page-004.jpg",
+      "exam/samples/113/page-005.jpg",
+      "exam/samples/113/page-006.jpg",
+      "exam/samples/113/page-007.jpg",
+      "exam/samples/113/page-008.jpg",
+      "exam/samples/113/page-009.jpg",
+      "exam/samples/113/page-010.jpg",
+      "exam/samples/113/page-011.jpg",
+      "exam/samples/113/page-012.jpg",
+      "exam/samples/113/page-013.jpg",
+      "exam/samples/113/page-014.jpg",
+      "exam/samples/113/page-015.jpg",
+      "exam/samples/113/page-016.jpg",
+      "exam/samples/113/page-017.jpg",
+      "exam/samples/113/page-018.jpg",
+      "exam/samples/113/page-019.jpg"
     ]
   },
   {
@@ -81,7 +127,11 @@
       {
         "title": "範文：從疲累日常到心靈圖像",
         "summary": "以日暮時分返家人潮起筆，點出現代人生活疲憊、心靈日漸乾枯，進而探究喜愛不同影劇類型背後的心理需求。",
-        "strengths": ["場面描寫", "深度解讀", "結構縝密"]
+        "strengths": [
+          "場面描寫",
+          "深度解讀",
+          "結構縝密"
+        ]
       }
     ],
     "inspiration": [
@@ -89,6 +139,27 @@
       "思考：為什麼看某些劇會感到治癒？",
       "從「鬆綁現實」、「重溫童年」、「愛情投射」等角度切入",
       "把統計數字轉化為人的故事"
+    ],
+    "sampleImages": [
+      "exam/samples/112/page-001.jpg",
+      "exam/samples/112/page-002.jpg",
+      "exam/samples/112/page-003.jpg",
+      "exam/samples/112/page-004.jpg",
+      "exam/samples/112/page-005.jpg",
+      "exam/samples/112/page-006.jpg",
+      "exam/samples/112/page-007.jpg",
+      "exam/samples/112/page-008.jpg",
+      "exam/samples/112/page-009.jpg",
+      "exam/samples/112/page-010.jpg",
+      "exam/samples/112/page-011.jpg",
+      "exam/samples/112/page-012.jpg",
+      "exam/samples/112/page-013.jpg",
+      "exam/samples/112/page-014.jpg",
+      "exam/samples/112/page-015.jpg",
+      "exam/samples/112/page-016.jpg",
+      "exam/samples/112/page-017.jpg",
+      "exam/samples/112/page-018.jpg",
+      "exam/samples/112/page-019.jpg"
     ]
   },
   {
@@ -105,12 +176,20 @@
       {
         "title": "範例一：從難民問題思考「能者多勞」的代價",
         "summary": "以歐洲難民收容政策為切入，質疑「多做」是否等於「多得」，對「兼善天下」與「獨善其身」的界線提出思考。",
-        "strengths": ["格局宏大", "論證辩证", "視野開闊"]
+        "strengths": [
+          "格局宏大",
+          "論證辩证",
+          "視野開闊"
+        ]
       },
       {
         "title": "範例二：劍道練習的得失之間",
         "summary": "從日暮時分背著護具走在返家人潮相反的路上切入，細膩描繪日復一日練習的甘苦，體悟「多做」的意義不在結果，在於自我超越。",
-        "strengths": ["細節動人", "轉折自然", "自我對話"]
+        "strengths": [
+          "細節動人",
+          "轉折自然",
+          "自我對話"
+        ]
       }
     ],
     "inspiration": [
@@ -118,6 +197,35 @@
       "思考：什麼是真正的「得」？",
       "可以反過來寫：做得多卻失去什麼",
       "結合名人的故事或歷史事件"
+    ],
+    "sampleImages": [
+      "exam/samples/111/page-001.jpg",
+      "exam/samples/111/page-002.jpg",
+      "exam/samples/111/page-003.jpg",
+      "exam/samples/111/page-004.jpg",
+      "exam/samples/111/page-005.jpg",
+      "exam/samples/111/page-006.jpg",
+      "exam/samples/111/page-007.jpg",
+      "exam/samples/111/page-008.jpg",
+      "exam/samples/111/page-009.jpg",
+      "exam/samples/111/page-010.jpg",
+      "exam/samples/111/page-011.jpg",
+      "exam/samples/111/page-012.jpg",
+      "exam/samples/111/page-013.jpg",
+      "exam/samples/111/page-014.jpg",
+      "exam/samples/111/page-015.jpg",
+      "exam/samples/111/page-016.jpg",
+      "exam/samples/111/page-017.jpg",
+      "exam/samples/111/page-018.jpg",
+      "exam/samples/111/page-019.jpg",
+      "exam/samples/111/page-020.jpg",
+      "exam/samples/111/page-021.jpg",
+      "exam/samples/111/page-022.jpg",
+      "exam/samples/111/page-023.jpg",
+      "exam/samples/111/page-024.jpg",
+      "exam/samples/111/page-025.jpg",
+      "exam/samples/111/page-026.jpg",
+      "exam/samples/111/page-027.jpg"
     ]
   },
   {
@@ -134,12 +242,20 @@
       {
         "title": "範例一：爺爺的紙機車",
         "summary": "以爺爺親手製作的紙機車為線索，串起對爺爺的記憶，反思傳統技藝的流失與重男輕女觀念的過時。",
-        "strengths": ["情感動人", "象徵巧妙", "文化關懷"]
+        "strengths": [
+          "情感動人",
+          "象徵巧妙",
+          "文化關懷"
+        ]
       },
       {
         "title": "範例二：失敗科展作品的學習",
         "summary": "描述科展實驗屢次失敗的過程，從挫折到坦然接受不完美，體悟科學精神不在成功，在於勇於嘗試。",
-        "strengths": ["過程細膩", "主題明確", "勵志動人"]
+        "strengths": [
+          "過程細膩",
+          "主題明確",
+          "勵志動人"
+        ]
       }
     ],
     "inspiration": [
@@ -147,6 +263,30 @@
       "這個物品為什麼重要？連結人、情感、記憶",
       "失敗不是終點，是認識自己的起點",
       "可以加入「展覽」的想像場景增加創意"
+    ],
+    "sampleImages": [
+      "exam/samples/110/page-001.jpg",
+      "exam/samples/110/page-002.jpg",
+      "exam/samples/110/page-003.jpg",
+      "exam/samples/110/page-004.jpg",
+      "exam/samples/110/page-005.jpg",
+      "exam/samples/110/page-006.jpg",
+      "exam/samples/110/page-007.jpg",
+      "exam/samples/110/page-008.jpg",
+      "exam/samples/110/page-009.jpg",
+      "exam/samples/110/page-010.jpg",
+      "exam/samples/110/page-011.jpg",
+      "exam/samples/110/page-012.jpg",
+      "exam/samples/110/page-013.jpg",
+      "exam/samples/110/page-014.jpg",
+      "exam/samples/110/page-015.jpg",
+      "exam/samples/110/page-016.jpg",
+      "exam/samples/110/page-017.jpg",
+      "exam/samples/110/page-018.jpg",
+      "exam/samples/110/page-019.jpg",
+      "exam/samples/110/page-020.jpg",
+      "exam/samples/110/page-021.jpg",
+      "exam/samples/110/page-022.jpg"
     ]
   }
 ]
