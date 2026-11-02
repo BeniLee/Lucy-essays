@@ -46,8 +46,7 @@
     ],
     "sampleImages": [],
     "promptImages": [
-      "exam/prompts/114-figure1.jpg",
-      "exam/prompts/114-figure2.jpg"
+      "exam/prompts/114-prompt.jpg"
     ]
   },
   {
@@ -117,7 +116,7 @@
       "exam/samples/113/page-019.jpg"
     ],
     "promptImages": [
-      "exam/prompts/113-headlines.jpg"
+      "exam/prompts/113-prompt.jpg"
     ]
   },
   {
@@ -169,7 +168,7 @@
       "exam/samples/112/page-019.jpg"
     ],
     "promptImages": [
-      "exam/prompts/112-chart.jpg"
+      "exam/prompts/112-prompt.jpg"
     ]
   },
   {
@@ -238,7 +237,7 @@
       "exam/samples/111/page-027.jpg"
     ],
     "promptImages": [
-      "exam/prompts/111-chat.jpg"
+      "exam/prompts/111-prompt.jpg"
     ]
   },
   {
@@ -302,7 +301,7 @@
       "exam/samples/110/page-022.jpg"
     ],
     "promptImages": [
-      "exam/prompts/110-items.jpg"
+      "exam/prompts/110-prompt.jpg"
     ]
   },
   {
