@@ -45,22 +45,6 @@ function renderExamDetail() {
   loading.classList.add('hidden');
   container.classList.remove('hidden');
 
-  let samplesHtml = '';
-  if (exam.samples && exam.samples.length) {
-    samplesHtml = `
-      <h3>📖 佳文賞析</h3>
-      ${exam.samples.map(s => `
-        <div class="sample-card">
-          <h4>${s.title}</h4>
-          <p>${s.summary}</p>
-          <div class="tags">
-            ${s.strengths.map(st => `<span class="tag">${st}</span>`).join('')}
-          </div>
-        </div>
-      `).join('')}
-    `;
-  }
-
   let imagesHtml = '';
   if (exam.sampleImages && exam.sampleImages.length) {
     imagesHtml = `
@@ -113,7 +97,6 @@ function renderExamDetail() {
         ${exam.scoring.map(s => `<li>${s}</li>`).join('')}
       </ul>
 
-      ${samplesHtml}
       ${imagesHtml}
       ${inspirationHtml}
     </div>
